@@ -4,3 +4,4 @@ When trying to create a pic for adding a profile picture to a web app, I found n
 
 v0.0.0
 This contains my working code for HTML/CSS/vanilla JS.
+hoping to add multiple options such as React and jQuery etc. Contributions welcome, just submit a PR
