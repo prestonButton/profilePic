@@ -138,7 +138,7 @@ window.onload = function() {
   CiM.opt.my_final_size = {w:240, h:292};
   CiM.opt.my_win_ratio = 1.5;
   
-  //savedImg[0].src = CiM.get_image_placeholder('T');
+  savedImg[0].src = "userIcon.png";
   
   $('#imgModal-btnCrop').on('click', function() {
     CiM.crop_into_img(croppedImg, function() {
