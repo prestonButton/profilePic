@@ -4,12 +4,10 @@
 
 #imgModal-cropme {
     direction: ltr;
-
 }
 
 #cropped-img-wrp {
-    width:100%;
-    height:100%;
+    width:200px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -22,6 +20,12 @@
 }
 
 #saved-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#saved-img {
     border-radius: 50%;
     height: 200px;
     width: 200px;

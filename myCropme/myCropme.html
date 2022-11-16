@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>My Cropme</title>  
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../cropme-master/dist/cropme.min.css">
+        <script src="../cropme-master/dist/cropme.min.js"></script>
+
+        <!--This project is trying to use cropme.js package to create a useable cropping tool for profile pictures. 
+            Just trying to build a simpler iteration than I had copied and pasted together previously-->
+    </head>
+    <body>
+        <div id="container"></div>
+
+        <script>
+            var element = document.getElementById('container');
+            var cropme = new Cropme(element);
+            cropme.bind({url: 'images/naruto.jpg'});
+        </script> 
+        <!-- or use image tag -->
+        <img src="images/naruto.jpg" id="myImage" />
+
+        <script>   
+            var element = document.getElementById('myImage');
+            new Cropme(element); 
+        </script>
+    </body>
+</html>
