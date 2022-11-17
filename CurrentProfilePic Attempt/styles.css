@@ -1,0 +1,32 @@
+.cropme-container {
+    max-width: 100%
+}
+
+#imgModal-cropme {
+    direction: ltr;
+}
+
+#cropped-img-wrp {
+    width:200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#cropped-img {
+    height: 200px; 
+    border: 2px solid white;
+    border-radius:50%;
+}
+
+#saved-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#saved-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
