@@ -14,19 +14,11 @@
                 https://shpontex.github.io/cropme/ -->
     </head>
     <body>
-        <div id="container"></div>
-
-        <script>
-            var element = document.getElementById('container');
-            var cropme = new Cropme(element);
-            cropme.bind({url: 'images/naruto.jpg'});
-        </script> 
-        <!-- or use image tag -->
-        <img src="images/naruto.jpg" id="myImage" />
+        <img src="../lio.png" id="myImage" alt="image"/>
 
         <script>   
             var element = document.getElementById('myImage');
-            new Cropme(element); 
+            new Cropme(element);
         </script>
     </body>
 </html>
