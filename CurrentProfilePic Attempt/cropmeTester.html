@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Cropme Responsive Modal</title>    
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropme@1.4.3/dist/cropme.min.css">
+  <link rel="stylesheet" href="../cropme-master/dist/cropme.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <script src="cropmeScripts.js"></script>
@@ -13,7 +13,7 @@
   <main role="main" class="container-fluid"> 
     <div class="row">
       <div class="col text-center p-2">
-        <img class="mt-4" id="saved-img" >
+        <img class="mt-4" id="saved-img" alt="image">
         <div class="mt-3">
           <button id="btnGetImage" class="btn btn-primary">Get Image</button>
           <input class="d-none" type="file" id="fileUpload" accept="image/*" />
@@ -29,7 +29,7 @@
                 </div>
                 <div id="imgModal-msg" class="modal-body mb-2">
                       <div id="cropped-img-wrp"><img id="cropped-img" ></div>
-                      <div id="imgModal-cropme-wrp" class="justify-content-center" style="border-radius:50%">
+                      <div id="imgModal-cropme-wrp" class="justify-content-center">
                         <div id="imgModal-cropme" class="" ></div>
                       </div>
                 </div>
