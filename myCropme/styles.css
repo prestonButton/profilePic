@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #484848;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    border: 2px solid #fff;
+    padding: 20px;
+    height: 100vh
+}
+
+#myImage{
+    height: 50vh;
+}
