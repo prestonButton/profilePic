@@ -1,5 +1,5 @@
  
-//Cropme in Modal
+//Cropme in Modal ***I need to figure out how to add this to my cropme***
 var CiM = { 
   myCropme: null,
   opt: {
