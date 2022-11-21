@@ -14,19 +14,20 @@
 }
 
 #cropped-img {
-    height: 200px; 
+    
     border: 2px solid white;
     border-radius:50%;
 }
 
-#saved-image {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
+
 
 #saved-img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
 }
+
+#cropped-img-wrp {
+    padding: 0
+}
+
