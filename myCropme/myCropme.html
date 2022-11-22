@@ -3,25 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>My Cropme</title>  
+        <title>My Cropme</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="../cropme-master/dist/cropme.min.css">
         <script src="../cropme-master/dist/cropme.min.js"></script>
 
-        <!--This project is trying to use cropme.js package to create a useable cropping tool for profile pictures. 
+        <!--This project is trying to use cropme.js package to create a useable cropping tool for profile pictures.
             Just trying to build a simpler iteration than I had copied and pasted together previously-->
-            <!--sources: https://p.bdir.in/p/zoomable--rotatable-image-cropper---cropmejs/14947 
+            <!--sources: https://p.bdir.in/p/zoomable--rotatable-image-cropper---cropmejs/14947
                 https://shpontex.github.io/cropme/ -->
     </head>
     <body>
         <div class="content">
             <img src="../lio.png" id="myImage" alt="image"/>
 
-            <script>   
+            <script>
                 var element = document.getElementById('myImage');
                 new Cropme(element);
             </script>
-        </div> 
+        </div>
         <script src="app.js"></script>
     </body>
 </html>
