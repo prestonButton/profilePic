@@ -91,7 +91,7 @@ var CiM = {
     var dataURL = imgCanvas.toDataURL();
     $.ajax({
       type: "POST",
-      url: "save-img.php", // see code at the bottom
+      url: "save-img.php", // see code at the bottom need to figure this out. Bothers me.
       data: { 
          imgBase64: dataURL
       }
@@ -104,7 +104,7 @@ var CiM = {
     });
   },
   update_options_for_width: function(w) {
-    var o = CiM.opt, //shortcut
+    var o = CiM.opt, //shortcut  
         vp_ratio = o.my_final_size.w / o.my_final_size.h,
         h, new_vp_w, new_vp_h;
     w = Math.floor(w * 0.9);
