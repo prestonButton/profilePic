@@ -9,7 +9,7 @@ var CiM = {
     container: { width: 0, height: 0 }, //to be set
     viewport: {
       width: 0, height: 0, //to be set
-      type: 'square',
+      type: 'circle',
       border: { width: 2, enable: true, color: '#fff' }
     },
     zoom: { enable: true, mouseWheel: true, slider: true },
