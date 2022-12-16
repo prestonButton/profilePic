@@ -7,3 +7,5 @@ This contains my working code for HTML/CSS/vanilla JS.
 hoping to add multiple options such as React and jQuery etc. Contributions welcome, just submit a PR Thanks and much appreciated
 
 ***I have the JS version, it will just take some time till I can upload it here***
+
+TODO: Update JS version
